@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <title>Form</title>
+  <meta content="" name="description">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <link href="site.webmanifest" rel="manifest">
+  <link href="icon.png" rel="apple-touch-icon"><!-- Place favicon.ico in the root directory -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" rel="stylesheet">
+  <link href="https://use.typekit.net/fof5axb.css" rel="stylesheet">
+  <link href="https://use.typekit.net/fof5axb.css" rel="stylesheet">
+</head>
+<body>
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <header class="clearfix">
+    <a href="#"><span>Avenue</span> Fashion</a> <a class="menu-btn" href="#">&#9776;</a>
+    <nav class="clearfix">
+      <a class="close-btn" href="">X</a>
+      <ul class="clearfix">
+        <li>
+          <a href="#">Mens</a>
+        </li>
+        <li>
+          <a href="#">Womens</a>
+        </li>
+        <li>
+          <a href="#">The Brand</a>
+        </li>
+        <li>
+          <a href="#">Local Stores</a>
+        </li>
+        <li>
+          <a href="#">Look Book</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="welcome">
+      <h1><span>Welcome</span> to ave</h1>
+      <p>Register Today</p>
+    </div>
+    <div class="container form">
+      <form>
+        <div class="clearfix">
+          <h2>Register</h2>
+          <div class="first-name">
+            <label for="fname">First Name</label> <input id="fname" name="fname" required type="text">
+          </div>
+          <div class="last-name">
+            <label for="lname">Last Name</label> <input id="lname" name="lname" type="text" required>
+          </div>
+        </div>
+        <div>
+          <label for="email">Email Address</label> <input id="email" name="email" type="email" required >
+        </div>
+        <div class="password">
+          <label for="psswrd">Password</label> <input id="psswrd" name="password" required type= "password">
+        </div>
+        <div class="confirm-password">
+          <label for="confirm-psswrd">Confirm Password</label> <input id="confirm-psswrd" name=
+          "confirm-password" required type="password">
+        </div>
+        <div class="clearfix trial">
+            <div class="email-pref">
+              <label for="emailPreference">How often would you like an email?</label> <select id="emailPreference" name="emailPreference" required>
+             <option value="">
+              Please Select One
+              </option>
+              <option value="daily">
+              Daily
+             </option>
+              <option value="weekly">
+              Weekly
+              </option>
+              <option value="monthy">
+              Monthly
+              </option>
+              <option value="never">
+              Never
+              </option>
+            </select>
+          </div>
+          <div class="telephone">
+            <label for="tel">Phone Number (optional)</label> <input id="tel" name="tel" required type=
+          "tel">
+          </div>
+        </div>
+        
+
+        <input id="yes" name="consent" required type="radio" value="yes">
+        <fieldset>
+          <legend>I agree to the terms and conditions of the website. I may opt out at any
+          time.</legend>
+        </fieldset>
+        <div class="comments">
+          <label for="comments">Send us a message (optional)</label> 
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+        <div class="clearfix signup">
+          <h2>Sign up for</h2>
+          <div>
+            <fieldset>
+              <div class="row-1">
+                <div class="clearfix exclusive">
+                  <div>
+                    <input id="exclusive" name="signup" type="checkbox" value="exclusive">
+                  </div>
+                  <div>
+                    <label for="exclusive">exclusive updates</label>
+                  </div>
+                </div>
+                <div class="clearfix contests">
+                  <div>
+                    <input id="contests" name="signup" type="checkbox" value="contests">
+                  </div>
+                  <div>
+                    <label for="contests">contests</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row-2">
+                <div class="clearfix sales">
+                  <div>
+                    <input id="sales" name="signup" type="checkbox" value="sales">
+                  </div>
+                  <div>
+                    <label for="sales">discounts/sales</label>
+                  </div>
+                </div>
+                <div class="clearfix everything">
+                  <div class="everything">
+                    <input id="everything" name="signup" type="checkbox" value="everything">
+                  </div>
+                  <div>
+                    <label for="everything">everything</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row-3">
+                <div class="clearfix arrivals">
+                  <div>
+                    <input id="arrivals" name="signup" type="checkbox" value="arrivals">
+                  </div>
+                  <div>
+                    <label for="arrivals">new arrivals</label>
+                  </div>
+                </div>
+                <div class="clearfix coupons">
+                  <div>
+                    <input id="coupons" name="signup" type="checkbox" value="coupons">
+                  </div>
+                  <div>
+                    <label for="coupons">coupons</label>
+                  </div>
+                </div>
+              </div>
+            </fieldset>
+          </div>
+        </div><!--end of sign up div-->
+        <div class="clearfix preferences">
+          <h2>Preferences (optional)</h2>
+          <div class="language">
+            <label for="languagePreference">Language</label> <select id="languagePreference" name=
+            "languagePreference" required>
+              <option value="">
+                Please Select One
+              </option>
+              <option value="english">
+                English
+              </option>
+              <option value="french">
+                French
+              </option>
+              <option value="spanish">
+                Spanish
+              </option>
+              <option value="dutch">
+                Dutch
+              </option>
+            </select>
+          </div>
+          <div class="size">
+            <label for="sizePreference">Do you prefer a size of clothing?</label> <select id=
+            "sizePreference" name="sizePreference" required>
+              <option value="">
+                Please Select One
+              </option>
+              <option value="small">
+                Small
+              </option>
+              <option value="medium">
+                Medium
+              </option>
+              <option value="large">
+                Large
+              </option>
+              <option value="xlarge">
+                Extra Large
+              </option>
+            </select>
+          </div>
+          <div>
+            <label for="storePreference">Your Store Location?</label> <select id="storePreference" name=
+            "storePreference" required>
+             <option value="">
+                Please Select One
+              </option>
+               <option value="edmonton">
+                Edmonton, AB
+              </option>
+              <option value="calgary">
+                Calgary, AB
+              </option>
+              <option value="vancouver">
+                Vancouver, BC
+              </option>
+              <option value="toronto">
+                Toronto, ON
+              </option>
+            </select>
+            <div class="clearfix">
+              <input name="submit" type="submit" value="Create Account">
+            </div>
+          </div>
+        </div>
+        <div class="clearfix">
+      <!--Help-->
+      <div class="help">
+        <p>By clicking 'Create Account', you agree to our <a href="#">Privacy Policy &#8594;</a></p><a href=
+        "">Need Help?</a>
+        <p>If you have questions about your account, please contact <a href="">customer service</a> 24
+        hours a day, 7 days a week.<a href="tel:1-888-5555">1-888-5555</a></p>
+      </div>
+    </div>
+      </form>
+    </div>  
+  </main>
+  <footer>
+    <div class="clearfix">
+      <div class="information">
+        <h3>Information</h3>
+        <ul>
+          <li>
+            <a href="#">The brand</a>
+          </li>
+          <li>
+            <a href="#">Local stores</a>
+          </li>
+          <li>
+            <a href="#">Customer service</a>
+          </li>
+          <li>
+            <a href="#">Privacy & cookies</a>
+          </li>
+          <li>
+            <a href="#">Site map</a>
+          </li>
+        </ul>
+      </div>
+      <div class="whyus">
+        <h3>Why buy from us</h3>
+        <ul>
+          <li>
+            <a href="#">Shipping & returns</a>
+          </li>
+          <li>
+            <a href="#">Secure shopping</a>
+          </li>
+          <li>
+            <a href="#">Testimonials</a>
+          </li>
+          <li>
+            <a href="#">Award winning</a>
+          </li>
+          <li>
+            <a href="#">Ethical trading</a>
+          </li>
+        </ul>
+      </div>
+      <div class="lookbook">
+        <h3>Lookbook</h3>
+        <ul>
+          <li>
+            <a href="#">Latest posts</a>
+          </li>
+          <li>
+            <a href="#">Men's lookbook</a>
+          </li>
+          <li>
+            <a href="#">Women's lookbook</a>
+          </li>
+          <li>
+            <a href="#">Lookbooks RSS feed</a>
+          </li>
+          <li>
+            <a href="#">View your lookbook</a>
+          </li>
+          <li>
+            <a href="#">Delete yout lookbook</a>
+          </li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Contact Details</h3>
+        <p>Head Office: Avenue Fashion,</p>
+        <p>180-182 Regent Street, London.</p>
+        <a href="tel:0123-456-789">0123-456-789</a> 
+        <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a>
+      </div>
+    </div>
+    <div class="clearfix">
+      <div class="awards">
+        <p>Award Winner</p>
+        <p>Fashion Awards 2016</p>
+      </div>
+      <div class="social-media-icons">
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> <a href=
+        "https://twitter.com/"><i class="fab fa-twitter"></i></a> <a href=
+        "https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a href=
+        "https://www.pinterest.ca/"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </div>
+  </footer>
+  <div class="copyright">
+      <p>&#169; 2016 Avenue Fashion &#8482;</p>
+  </div>
+  <script src="js/vendor/modernizr-3.6.0.min.js">
+  </script> 
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js">
+  </script> 
+  <script>
+  window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
+  </script> 
+  <script src="js/plugins.js">
+  </script> 
+  <script src="js/main.js">
+  </script> <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+   
+  <script>
+     window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script> 
+  <script async defer src="https://www.google-analytics.com/analytics.js">
+  </script>
+</body>
+</html>
